@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table, Thead, Tbody, Tr, Th, Td, IconButton } from '@chakra-ui/react';
+import { Table, Thead, Tbody, Tr, Th, Td, IconButton, Input } from '@chakra-ui/react';
 import { FaTrash, FaPlus } from 'react-icons/fa';
 
 const EditableTable = ({ data, setData }) => {
